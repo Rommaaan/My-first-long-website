@@ -6,11 +6,11 @@
   border-radius: 15px;
  }
 
- .wrapper{
-    max-width: 1440px;
-    padding: 20px;  
-    margin: 0 auto; 
- }
+.wrapper{
+  max-width: 1440px;
+  padding: 20px;  
+  margin: 0 auto; 
+}
 
 .top_line {
   display: flex;
@@ -18,6 +18,11 @@
   align-items: center;
   width: 100%;
   margin-bottom: 150px;
+  /* border: 2px solid red; */
+}
+
+a {
+  text-decoration: none;
 }
 
 .menu_top {
@@ -27,6 +32,7 @@
   padding: 0;
   margin: 0;
   gap: 50px;
+  /* border: 2px solid red; */
 }
 
 button {
@@ -43,7 +49,8 @@ button {
   flex-direction: column; 
   align-items: center;      
   gap: 20px;                
-  padding: 40px;            
+  padding: 40px; 
+  /* border: 2px solid red;*/
 }
 
 .frst_text {
@@ -51,6 +58,7 @@ button {
   text-align: center;    
   font-size: 60px;
   max-width: 1000px;
+  /* border: 2px solid red; */
 }
 
 .min_text{
@@ -59,6 +67,7 @@ button {
   font-size: 25px;
   max-width: 1000px;
   margin-bottom: 150px;
+  /* border: 2px solid red; */
 }
 
 .txt_card{
@@ -66,36 +75,43 @@ button {
   margin-bottom: 150px;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
+  /* border: 2px solid red; */
 }
 
 .two_cards{
   display: flex;
+  /* border: 2px solid red; */
 }
 
 .h2_txt{
   font-size: 50px;
   max-width: 550px;
+  /* border: 2px solid red; */
 }
 
 .first_card{
   font-size: 15px;
   max-width: 250px;
+  /* border: 2px solid red; */
 }
 
 .second_card{
   margin-left: 25px;
   font-size: 15px;
   max-width: 250px;
+  /* border: 2px solid red; */
 }
 
 .readm1 {
   display: flex;
   font-size: 17px;
+  /* border: 2px solid red; */
 }
 
 .readm2 {
   display: flex;
   font-size: 17px;
+  /* border: 2px solid red; */
 }
 
 .img_arrow1{
@@ -110,32 +126,39 @@ button {
 
 .fcp{
   margin-bottom: -6px;
+  /* border: 2px solid red; */
 }
 
 .scp{
   margin-bottom: -6px;
+  /* border: 2px solid red; */
 }
 
 .img_pig { 
   margin-left: 250px;
+  /* border: 2px solid red; */
 }
 
 .line_txt {
-  margin-left: 150px;
   display: flex;
   justify-content: space-between;
+  margin-left: 150px;
   margin-right: 150px;
+  margin-bottom: 150px;
+  /* border: 2px solid red; */
 }
 
 .ltxt {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
+  /* border: 2px solid red; */
 }
 
 .mintxt_in_line {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16.5px;
   max-width: 400px;
+  /* border: 2px solid red; */
 }
 
 /* .txt_in_line {
@@ -148,16 +171,185 @@ button {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 30px;
+  /* border: 2px solid red; */
 }
 
 li {
   margin-bottom: 20px;
+  /* border: 2px solid red; */
 }
 
 .menu1 {
   list-style: none;
+  /* border: 2px solid red; */
 }
 
 .menu2 {
   list-style: none;
+  /* border: 2px solid red; */
 }
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.about_txt {
+  display: flex;
+  margin-left: 150px;
+
+}
+
+.adout_txt_txt {
+  max-width: 300px;
+  /* display: flex */
+}
+
+.p_txt {
+  display: flex;
+  font-size: 15.5px;
+  max-width: 240px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.txt_af {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  max-width: 200px;
+  margin-bottom: 30px;
+  /* max-width: 200px; */
+}
+
+.about_img_menu {
+  margin-right: 150px;
+  /* display: flex; */
+}
+
+.img_menu {
+  list-style: none;
+  display: flex;
+  margin-left: 60px;
+}
+
+.element_menu {
+  display: flex;
+  margin-left: 70px;
+}
+
+.frst_h2_txt {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  text-align: center; 
+}
+
+.about_and_txtimg {
+  margin-bottom: 100px;
+}
+
+.two_shadow_cards {
+  display: flex;
+  justify-content: center;
+
+}
+
+.frst_shadow_box {
+  width: 434px;
+  height: 300px;
+  box-shadow: 5px 5px 5px 5px gray;
+  border-radius: 10px;
+}
+
+.fsb_txt {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: left;
+  margin-right: 14px;
+  margin-left: 60px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.scnd_shadow_box {
+  width: 434px;
+  height: 300px;
+  box-shadow: 5px 5px 5px 5px gray;
+  border-radius: 10px;
+  margin-left: 100px;
+}
+
+.ssb_txt {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: left;
+  margin-right: 14px;
+  margin-left: 60px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.shadow_p_txt1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 60px;
+  margin-top: -35px;
+}
+
+.shadow_p_txt2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 60px; 
+  margin-top: -35px;
+}
+
+.UX {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-left: 60px; 
+  margin-top: -17px;
+  
+}
+
+.footer {
+  margin-left: 121px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1201px;
+}
+/* .logo_imr {
+  margin
+} */
+
+.f_img_menu {
+  list-style: none;
+  display: flex;
+}
+
+.footer_img_menu {
+  margin-left: -45px;
+}
+
+.contacts {
+  max-width: 150px;
+
+}
+
+.element_footer_menu1 {
+  transform: translateY(-4px);
+}
+
+.p_contacts_txt {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 15px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.pp_contacts_txt {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin-top: -30px;
+}
+
